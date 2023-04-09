@@ -1,0 +1,13 @@
+{
+  "extends": "@tsconfig/strictest",
+  "ts-node": {
+    "files": true
+  },
+  "compilerOptions": {
+    "target": "es2020",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "strictNullChecks": true
+  },
+  "include": ["kcp.ts"]
+}
